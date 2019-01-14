@@ -1,0 +1,30 @@
+* { 
+    box-sizing: border-box;
+  }
+    
+  body {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    color: #222;
+    background: #f4f3f3;
+  }
+
+  .main-nav {
+      width: 100%;
+      background: black;
+      min-height: 50px;
+      position: center;
+      text-align: center;
+      opacity: 0.5;
+  }
+
+  .nav {
+      display: flex;
+      justify-content: space-around;
+      font-weight: 700;
+      list-style-type: none;
+      margin: 0 auto;
+      padding: 0;
+  }
